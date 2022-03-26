@@ -332,8 +332,8 @@ Dhaka Division borders every other division in the country except Rangpur Divisi
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hkZ-EU-scg">
-                                                            <rect key="frame" x="1" y="1" width="301" height="64"/>
-                                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <rect key="frame" x="2" y="1" width="299" height="64"/>
+                                                            <color key="backgroundColor" red="0.13333332540000001" green="0.13333332540000001" blue="0.13333332540000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </view>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dhaka" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oqG-qJ-Kgd">
                                                             <rect key="frame" x="55.999999999999993" y="20.333333333333336" width="66.333333333333314" height="25.333333333333336"/>
@@ -351,9 +351,9 @@ Dhaka Division borders every other division in the country except Rangpur Divisi
                                                         </imageView>
                                                     </subviews>
                                                     <constraints>
-                                                        <constraint firstAttribute="trailing" secondItem="hkZ-EU-scg" secondAttribute="trailing" constant="1" id="3Af-xz-gY7"/>
+                                                        <constraint firstAttribute="trailing" secondItem="hkZ-EU-scg" secondAttribute="trailing" constant="2" id="3Af-xz-gY7"/>
                                                         <constraint firstItem="oqG-qJ-Kgd" firstAttribute="leading" secondItem="FYa-9e-gzb" secondAttribute="trailing" constant="15" id="7ZE-O3-Lr1"/>
-                                                        <constraint firstItem="hkZ-EU-scg" firstAttribute="leading" secondItem="eM3-mc-mbh" secondAttribute="leading" constant="1" id="b9L-AP-HvL"/>
+                                                        <constraint firstItem="hkZ-EU-scg" firstAttribute="leading" secondItem="eM3-mc-mbh" secondAttribute="leading" constant="2" id="b9L-AP-HvL"/>
                                                         <constraint firstAttribute="bottom" secondItem="hkZ-EU-scg" secondAttribute="bottom" constant="1" id="dIn-Hf-PYs"/>
                                                         <constraint firstItem="hkZ-EU-scg" firstAttribute="top" secondItem="eM3-mc-mbh" secondAttribute="top" constant="1" id="l0W-Wt-Qb5"/>
                                                         <constraint firstItem="oqG-qJ-Kgd" firstAttribute="centerY" secondItem="eM3-mc-mbh" secondAttribute="centerY" id="q17-Gy-xIf"/>
@@ -361,7 +361,7 @@ Dhaka Division borders every other division in the country except Rangpur Divisi
                                                         <constraint firstItem="FYa-9e-gzb" firstAttribute="centerY" secondItem="hkZ-EU-scg" secondAttribute="centerY" id="wpU-kT-atd"/>
                                                     </constraints>
                                                 </tableViewCellContentView>
-                                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
                                                     <outlet property="bgView" destination="hkZ-EU-scg" id="je5-7U-DAH"/>
                                                     <outlet property="name" destination="oqG-qJ-Kgd" id="cPw-IE-3nB"/>
@@ -394,7 +394,7 @@ Dhaka Division borders every other division in the country except Rangpur Divisi
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.63841833657776281" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="h9d-C3-cNR" firstAttribute="top" secondItem="kAi-or-CNN" secondAttribute="top" constant="60" id="3gF-G8-bMv"/>
                                     <constraint firstItem="h9d-C3-cNR" firstAttribute="leading" secondItem="kAi-or-CNN" secondAttribute="leading" id="F3w-r7-vaA"/>
@@ -408,7 +408,7 @@ Dhaka Division borders every other division in the country except Rangpur Divisi
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jBx-DQ-w09"/>
-                        <color key="backgroundColor" white="1" alpha="0.40979104957833196" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="DGP-wU-iFH" firstAttribute="leading" secondItem="ucS-PC-sFP" secondAttribute="leading" id="03X-XE-MyC"/>
                             <constraint firstAttribute="bottom" secondItem="DGP-wU-iFH" secondAttribute="bottom" id="4fL-Kl-Sha"/>
